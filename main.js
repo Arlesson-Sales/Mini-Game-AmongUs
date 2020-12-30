@@ -38,7 +38,7 @@ function getButtonScreen() {
 function turnOn() {
   working = true;
   screenButtons[screenButtonBoard[position]].classList.add("button-screen-on");
-  setTimeout(turnOff,700);
+  setTimeout(turnOff,500);
 }
 
 function turnOff() {
